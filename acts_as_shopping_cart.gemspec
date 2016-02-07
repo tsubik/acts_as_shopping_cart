@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency "rails", "~> 4"
-  s.add_dependency "money-rails", "~> 1.3"
+  s.add_dependency "money-rails"
 
   s.add_development_dependency "cucumber", "~> 1.3.14"
   s.add_development_dependency "database_cleaner"
